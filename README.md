@@ -2,22 +2,40 @@
 
 ### This is the React Workshop repository.
 
-In the first session on Tuesday, January 26, we learned:
-
-- First steps to create our app with react
-- Import libraries to manipulate the DOMThe usefulness of babel in our 
-- JavaScript projects
-- Configure Webpack
-- Questions about how to order our files and folders directory were resolved
-- Check that everything is done
+### We are going to make a weather app with the login feature :smile:
 
 #### Objective
 
 Build a simple application throughout the sessions and to know the best practices to be able to use React in our projects. 
 Coach mentor Oscar shared with us some hacks that can facilitate our work as developers.
-Recap concepts & solve doubts. 
+Recap concepts & solve doubts.  
 
-The vote to choose the project is on the #Frontend channel on Discord
+##### In the first session on Tuesday, January 26, we learned:
+
+- First steps to create our base app with react
+- Import libraries to manipulate the DOMThe usefulness of babel in our 
+- JavaScript projects
+- Configure Webpack
+- Questions about how to order our files and folders directory were resolved
+- Check that everything is ready to go
+
+##### In the second session on wednesday, January 27, we learned:
+
+-Create and manage routes for the login.
+
+- In our component / function in App.jx we create a component to which to pass the data, create the logic to return the routes. These routes will be contained in the <BrowseRouter>.
+  
+- In the folder "containers" we add the logic components for our login.
+
+- Using RequireAuth to validate if a user is authenticated and send it to <RequireAuth> where we will have the private routes. If a user is not logged in, he is redirected to / home.
+
+- This is the flow that our application: UI --> Action --> Reducer --> Store --> UI
+
+Tips:
+
+> With the "resolve" property of Webpack we can use aliases for the paths of our directory. This can include an "@" to identify that it is an alias.
+
+> With the tool https://github.com/js-cookie/js-cookie we can bring values from cookies.
 
 # Stack
 ![JavaScript](https://img.shields.io/badge/_-Platzi-292e33?style=flat-square&logo=platzi&logoColor=fff)
