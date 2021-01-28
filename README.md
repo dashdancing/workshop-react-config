@@ -21,7 +21,7 @@ Recap concepts & solve doubts.
 
 ##### In the second session on wednesday, January 27, we learned:
 
--Create and manage routes for the login.
+- Create and manage routes for the login.
 
 - In our component / function in App.jx we create a component to which to pass the data, create the logic to return the routes. These routes will be contained in the <BrowseRouter>.
   
