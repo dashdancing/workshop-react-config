@@ -10,6 +10,38 @@ Build a simple application throughout the sessions and to know the best practice
 Coach mentor Oscar shared with us some hacks that can facilitate our work as developers.
 Recap concepts & solve doubts.  
 
+# Stack
+![JavaScript](https://img.shields.io/badge/_-Platzi-292e33?style=flat-square&logo=platzi&logoColor=fff)
+![JavaScript](https://img.shields.io/badge/_-JavaScript-292e33?style=flat-square&logo=javascript&logoColor=fff)
+![React](https://img.shields.io/badge/_-React-292e33?style=flat-square&logo=React&logoColor=fff)
+![Webpack](https://img.shields.io/badge/_-Webpack-292e33?style=flat-square&logo=webpack&logoColor=white)
+![Babel](https://img.shields.io/badge/_-Babel-292e33?style=flat-square&logo=Babel&logoColor=white)
+
+# Installation
+Install dependencies
+```bash
+npm install
+```
+Build project
+```bash
+npm run build
+```
+Run project
+```bash
+npm run start
+```
+
+# Contributors
+###### Contributions are welcome! Just send a pull request :smile: 
+
+<table>
+  <tr>
+    <td align="center"><a href="https://jcmexdev-blog.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/24815945?v=4" width="100px;" alt=""/><br /><sub><b>J. Carlos García</b></sub></a></td>
+  </tr>
+</table>
+
+#Sessions thread
+
 ##### In the first session on Tuesday, January 26, we learned:
 
 - First steps to create our base app with react
@@ -48,39 +80,14 @@ Recap concepts & solve doubts.
 
 Tips:
 
-> With the "resolve" property of Webpack we can use aliases for the paths of our directory. This can include an "@" to identify that it is an alias
-> With the tool https://github.com/js-cookie/js-cookie we can bring values from cookies
-> Restart our server every time we put an alias
-> The chaining operator function of ECMAScript 6 prevents our application from breaking if a data does not exist
-> Redux is not exclusively about React but the community associates it because Dan Abramov is the creator of React and Redux
+> With the "resolve" property of Webpack we can use aliases for the paths of our directory. This can include an "@" to identify that it is an alias.
+
+> With the tool https://github.com/js-cookie/js-cookie we can bring values from cookies.
+
+> Restart our server every time we put an alias.
+
+> The chaining operator function of ECMAScript 6 prevents our application from breaking if a data does not exist.
+
+> Redux is not exclusively about React but the community associates it because Dan Abramov is the creator of React and Redux.
+
 > Code Spell Checker is a plugin that helps us avoid the types and works as a spell checker and we can include terms in Spanish to its dictionary
-
-# Stack
-![JavaScript](https://img.shields.io/badge/_-Platzi-292e33?style=flat-square&logo=platzi&logoColor=fff)
-![JavaScript](https://img.shields.io/badge/_-JavaScript-292e33?style=flat-square&logo=javascript&logoColor=fff)
-![React](https://img.shields.io/badge/_-React-292e33?style=flat-square&logo=React&logoColor=fff)
-![Webpack](https://img.shields.io/badge/_-Webpack-292e33?style=flat-square&logo=webpack&logoColor=white)
-![Babel](https://img.shields.io/badge/_-Babel-292e33?style=flat-square&logo=Babel&logoColor=white)
-
-# Installation
-Install dependencies
-```bash
-npm install
-```
-Build project
-```bash
-npm run build
-```
-Run project
-```bash
-npm run start
-```
-
-# Contributors
-###### Contributions are welcome! Just send a pull request :smile: 
-
-<table>
-  <tr>
-    <td align="center"><a href="https://jcmexdev-blog.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/24815945?v=4" width="100px;" alt=""/><br /><sub><b>J. Carlos García</b></sub></a></td>
-  </tr>
-</table>
